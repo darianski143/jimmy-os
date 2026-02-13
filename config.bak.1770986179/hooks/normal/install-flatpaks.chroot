@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install -y --system flathub com.discordapp.Discord
+flatpak install -y --system flathub io.ente.auth || true

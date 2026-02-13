@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+mkdir -p /etc/skel/.config
+echo "[General]
+ColorScheme=BreezeDark" > /etc/skel/.config/kdeglobals

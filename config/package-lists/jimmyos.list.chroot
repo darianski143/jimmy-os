@@ -1,0 +1,37 @@
+# KDE FULL
+kde-full
+sddm
+
+# NVIDIA
+nvidia-driver
+firmware-misc-nonfree
+
+# Dev stack
+build-essential
+git
+curl
+wget
+neovim
+htop
+tmux
+cmake
+clang
+python3
+python3-venv
+nodejs
+npm
+docker.io
+
+# System
+sudo
+ufw
+flatpak
+ca-certificates
+gnupg
+dirmngr
+systemd-zram-generator
+zsh
+fonts-powerline
+plymouth
+plymouth-themes
+

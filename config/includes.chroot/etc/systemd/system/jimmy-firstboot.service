@@ -1,0 +1,11 @@
+[Unit]
+Description=JimmyOS First Boot Setup
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/jimmy-firstboot.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+chsh -s /bin/zsh root || true
+
+# pentru user nou creat la instalare
+echo "/bin/zsh" >> /etc/shells

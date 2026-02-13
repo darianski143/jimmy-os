@@ -1,0 +1,7 @@
+cache/
+.chroot/
+.binary/
+.build/
+*.iso
+*.img
+*.tar
