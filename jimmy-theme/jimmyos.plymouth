@@ -1,9 +1,0 @@
-[Plymouth Theme]
-Name=JimmyOS Script Spinner
-Description=JimmyOS boot theme with script-controlled spinner position
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/jimmyos-script
-ScriptFile=/usr/share/plymouth/themes/jimmyos-script/jimmyos-script.script
-
