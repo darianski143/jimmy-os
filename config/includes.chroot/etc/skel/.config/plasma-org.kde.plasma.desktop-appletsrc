@@ -1,0 +1,6 @@
+[Containments][1]
+wallpaperplugin=org.kde.image
+
+[Containments][1][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/JimmyOS/jimmy.png
+FillMode=2

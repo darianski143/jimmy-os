@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+
+# Global
+mkdir -p /etc/xdg
+echo "[KSplash]
+Theme=None" > /etc/xdg/ksplashrc
+
+# Skeleton
+mkdir -p /etc/skel/.config
+echo "[KSplash]
+Theme=None" > /etc/skel/.config/ksplashrc

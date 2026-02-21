@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Jimmy Boot Video
+Exec=/usr/local/bin/jimmy-boot-video.sh
+X-KDE-autostart-phase=1
+NoDisplay=true

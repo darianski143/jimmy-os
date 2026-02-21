@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=JimmyOS Apply Wallpaper
+Exec=/usr/local/bin/jimmy-apply-wallpaper.sh
+X-KDE-autostart-phase=2
+NoDisplay=true
